@@ -21,10 +21,10 @@ jupyter notebooks
 - Learn how to download the ICESat-2 data by lat lon bounding box
 - explore parameters associated with level 6 data - gain familarity 
 - develop pipeline for subsetting data and downloading ICESat-2 ATL06
-- develop first order filtering for each region
+- develop first order filtering for each region (keep in mind if specific filtering parameters vary for different complex       surfaces)
 - exploratory statistics that describe differences in key parameters between different water features
 - develop python code for plotting results
-- what are the big takeaways? Running document of key findings to share with hackweek group
+- what are the big takeaways? Keep a running document of key findings to share with hackweek group at end of week
 
 ### Study Sites:
 - Store Glacier, west Greenland
