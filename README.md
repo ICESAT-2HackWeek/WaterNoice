@@ -6,7 +6,7 @@ known firn aquifers, blue ice, etc.)
 And if so, characterize how this variability through space and time.
 
 ### Datasets
-- ICESat-2 [ATL06](https://nsidc.org/data/atl06?qt-data_set_tabs=3#qt-data_set_tabs) (20 m resolution)
+- ICESat-2 [ATL06](https://nsidc.org/data/atl06?qt-data_set_tabs=3#qt-data_set_tabs) (40 m resolution)
 - REMA: 2 m digital elevation data for Antarctica
 - Sentinel-1 and LANDSAT imagery data for identifying perennial surface features
 
