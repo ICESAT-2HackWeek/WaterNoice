@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>seeps_koge</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-41.7346500442138,65.3458638017975 -39.9427041630103,66.0119582719125 -39.468258985615,65.9443399960006 -39.8631637078536,65.7955318747449 -40.6293600997511,65.2324761919709 -41.7346500442138,65.3458638017975</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
