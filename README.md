@@ -1,9 +1,9 @@
 # WaterNoice
 
 ### Data Science Objective
-Do they residual histograms of ATL06 data vary across different hydrologic features (meltwater ponds, 
-known firn aquifers, blue ice, etc.)
-And if so, characterize how this variability through space and time.
+Do the residual histograms of ATL06 data vary across different hydrologic features (meltwater ponds, 
+firn aquifer seeps, blue ice megadunes, etc.)?
+And if so, characterize this variability through space and time.
 
 ### Datasets
 - ICESat-2 [ATL06](https://nsidc.org/data/atl06?qt-data_set_tabs=3#qt-data_set_tabs) (40 m resolution)
@@ -11,11 +11,10 @@ And if so, characterize how this variability through space and time.
 - Sentinel-1 and LANDSAT imagery data for identifying perennial surface features
 
 ### Validation Datasets
-
+ArcticDEM, REMA, or other local DEM can serve as a comparison benchmark.  How do the ATL06 data differ from these baselines, in both a mean sense and (especially) the variability within a single flyover (histogram width)?
 
 ### Tools
-python
-jupyter notebooks
+adapt jupyter notebooks provided by instructors into a python workflow
 
 ### Tasks
 - Learn how to download the ICESat-2 data by lat lon bounding box
