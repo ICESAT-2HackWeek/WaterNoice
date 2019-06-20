@@ -1,6 +1,7 @@
 notebooks/Outputs/
-.ipynb_checkpoints
+*.ipynb_checkpoints
 .DS_Store
-.hf
+*.hf
 .xml
-
+data
+RBIS.shp
