@@ -5,3 +5,6 @@ notebooks/Outputs/
 .xml
 data
 RBIS.shp
+*.TIF
+*.tif
+*.tiff
