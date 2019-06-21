@@ -8,3 +8,5 @@ RBIS.shp
 *.TIF
 *.tif
 *.tiff
+*.txt
+*.kml
