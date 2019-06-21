@@ -13315,7 +13315,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Antarctic-Study-Sites">Antarctic Study Sites<a class="anchor-link" href="#Antarctic-Study-Sites">&#182;</a></h1><h2 id="2)-Nivlison-Ice-Shelf">2) Nivlison Ice Shelf<a class="anchor-link" href="#2)-Nivlison-Ice-Shelf">&#182;</a></h2>
+<h1 id="Antarctic-Study-Sites">Antarctic Study Sites<a class="anchor-link" href="#Antarctic-Study-Sites">&#182;</a></h1><h2 id="2)-Nivlisen-Ice-Shelf">2) Nivlisen Ice Shelf<a class="anchor-link" href="#2)-Nivlisen-Ice-Shelf">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
@@ -13385,7 +13385,110 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Greenland-Study-Sites">Greenland Study Sites<a class="anchor-link" href="#Greenland-Study-Sites">&#182;</a></h1><h2 id="1)-Rink-Glacier">1) Rink Glacier<a class="anchor-link" href="#1)-Rink-Glacier">&#182;</a></h2>
+<h2 id="2)-Helheim-Glacier">2) Helheim Glacier<a class="anchor-link" href="#2)-Helheim-Glacier">&#182;</a></h2><h3 id="How-do-mid-winter-ATL03-returns-differ-in-areas-where-subsurface-water-seeps-to-the-(near)-surface?">How do mid-winter ATL03 returns differ in areas where subsurface water seeps to the (near) surface?<a class="anchor-link" href="#How-do-mid-winter-ATL03-returns-differ-in-areas-where-subsurface-water-seeps-to-the-(near)-surface?">&#182;</a></h3><p>We looked at the East Greenland firn aquifer, near Helheim Glacier, where Sentinel-1 images show liquid water (dark) near the surface even in winter.</p>
+<p>The image below is a Sentinel-1 scene from December 29, 2018, a surface DEM, and the ICESat-2 tracks from December 27, 2018.</p>
+<p>Dark areas are "firn aquifer seeps", where the subsurface water table rises to the surface, or near the surface.  These are analogous to ponds, springs, or seeps in the terrestrial water table.  They occur in local areas with low surface slopes.</p>
+<p>Since the underlying firn aquifer water table remains liquid year-round, these seeps likely also contain liquid water in with the firn.</p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;iframe src=&quot;notebooks/Scene-seeps-small-helheim.png&quot; frameborder=0 height=&quot;600px&quot; width=&quot;100%&quot; &gt;&gt;&lt;/iframe&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[6]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<iframe src="notebooks/Scene-seeps-small-helheim.png" frameborder=0 height="600px" width="100%" >></iframe
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Do-these-seeps-(near-surface-liquid-water)-look-different-to-ICESat-2-(ATL03)-than-does-the-surrounding-ice-(without-liquid-water)?">Do these seeps (near-surface liquid water) look different to ICESat-2 (ATL03) than does the surrounding ice (without liquid water)?<a class="anchor-link" href="#Do-these-seeps-(near-surface-liquid-water)-look-different-to-ICESat-2-(ATL03)-than-does-the-surrounding-ice-(without-liquid-water)?">&#182;</a></h2><p>We began to investigate this question using tools from the hackweek:</p>
+<ul>
+<li>Amy Steiker's subsetter / download tool</li>
+<li>Tyler Sutterly's ATL03 reader</li>
+<li>Ben Smith's selector and plotting tools</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;iframe src=&quot;notebooks/slide1-kp.png&quot; frameborder=0 height=&quot;600px&quot; width=&quot;100%&quot; &gt;&gt;&lt;/iframe&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[7]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<iframe src="notebooks/slide1-kp.png" frameborder=0 height="600px" width="100%" >></iframe
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Preliminary-conclusions">Preliminary conclusions<a class="anchor-link" href="#Preliminary-conclusions">&#182;</a></h2><ul>
+<li>The low-lying seeps, where we know there is near-surface liquid water, are not different (using the eyeball norm) from neighboring regions.</li>
+</ul>
+<h2 id="Next-steps">Next steps<a class="anchor-link" href="#Next-steps">&#182;</a></h2><ul>
+<li>Examine histograms from ATL06 to get a quantitative measure of the depth that photons are scattering from in different regions.</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="2)-Rink-Glacier">2) Rink Glacier<a class="anchor-link" href="#2)-Rink-Glacier">&#182;</a></h2>
 </div>
 </div>
 </div></section></section><section><section>
