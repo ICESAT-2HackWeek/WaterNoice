@@ -8,3 +8,6 @@ RBIS.shp
 *.TIF
 *.tif
 *.tiff
+*.txt
+*.kml
+*_pyache_
